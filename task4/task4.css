@@ -1,0 +1,25 @@
+*{margin:0px;
+  padding:0px;}
+
+.a1{width:400px;
+	height:200px;
+	background-color:#ccc;
+    margin:auto;
+    position: absolute;  
+    top:0;left:0;bottom:0;right:0;}  /*和第7，8行组合使用达到垂直居中*/
+
+.a2{width:50px;
+    height:50px;
+    border-bottom-right-radius:50px;/*11,12,13行设置一个半径为50px的圆(且只要右下部分)。*/
+    background-color:#fc0;
+    position:relative;
+    top:0px;
+    left:0px;*/}  /*15，16,17行设置四分之一圆的相对位置*/
+
+.a3{width:50px;
+    height:50px;
+    border-top-left-radius:50px;/*19,20,21行设置一个半径为50px的圆(且只要左上部分)。*/
+    background-color:#fc0;
+    position:relative;
+    bottom:-150px;
+    right:-350px;}   /*23，24,25行设置四分之一圆的相对位置*/

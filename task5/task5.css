@@ -1,0 +1,97 @@
+*{margin:0px;
+  padding:0px;}
+
+body{background-color:#CFCFCF;
+     font-family:"Microsoft Yahei";}  
+.daohang{background-color:#4F4F4F;
+         height:70px;
+         width:100%;}
+.a1{float:right;}
+
+.a1 li{line-height:70px;
+       display: inline-block;
+       padding-right:20px;}
+
+.a1 a{color:#fff;}  
+.page{background-color:#fff;
+      padding:20px;
+      margin:20px;
+      box-shadow:3px 3px 3px #888888;
+      line-height:40px;
+      width:900px;
+      }
+
+.dilan{width:100%;
+       height:70px;
+       background-color:#000000;
+       font-size:20px;color:#fff;}                      
+
+.banquan {text-align:center;
+          line-height:70px;} 
+
+.table table{width:1200px;
+             width:100%;
+             border-collapse:collapse;}
+
+.table table th{background-color:#1C1C1C;
+                color:#fff;
+                text-align:left;}
+
+.table table td{border:1px solid #ccc;} 
+
+.table .total{background-color:#ccc;} 
+
+.pageright{background-color:#fff;
+      height:530px;
+      margin:20px;
+      box-shadow:3px 3px 3px #888888;
+      
+      width:350px;
+      float:right;}
+
+.pageright .queren{background-color:#128fdc;
+                    width:330px;
+                    height:40px;
+                     display:block;
+                    border-radius:15px;
+                    border:none;
+                    font-size:20px;color:#fff;
+                    margin:0px auto;} 
+.queren:hover{background-color:#0000FF;}
+
+.pageright h4{padding-left: 20px;
+              padding-top:20px;}  
+
+.right1{padding-left: 20px;
+        padding-top: 20px;}
+
+.right2{padding-left: 150px;
+         font-size:8px;
+         color:#4F4F4F;}   
+
+.right3{padding-left: 50px;}
+
+.right4{padding-left: 150px;
+        font-size:8px;
+        color:#4F4F4F;}
+
+.right5{padding-left: 100px;}
+
+.pageright span{float:left;
+                padding-left: 20px;}
+
+.ul li{padding-left:20px;
+       list-style: none;}   
+
+.ol {padding-left: 20px;} 
+
+.page figure{height:150px;
+              width: 140px;
+              border: 1px solid #aaa;
+              text-align: center;
+              padding-bottom: 10px;
+              margin-bottom: 20px;
+              display: inline-block;} 
+
+.page figcaption{padding: 5px;}                          
+                                              

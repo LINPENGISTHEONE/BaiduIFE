@@ -1,0 +1,166 @@
+*{margin:0px;
+  padding:0px;}
+
+body{background-color:#CFCFCF;/*设置背景颜色*/
+	 font-family:"Microsoft Yahei";}/*设置字体格式*/
+
+.na{width:100%;
+	height:70px;
+	background-color:#4F4F4F;
+    position:fixed;          /*生成绝对定位的元素，相对于浏览器窗口进行定位*/
+    top:0px;}                /*na置顶*/
+
+#nav li{display:inline-block;/*将对象呈递为内联对象，但是对象的内容作为块对象呈递。旁边的内联对象会被呈递在同一行内，允许空格。*/   
+        position:relative;
+	    top:0px;
+	    line-height:70px;/*和第8行的代码组合，使文字垂直居中。*/
+	    padding-right:20px;}
+
+#nav  a{color:#fff;}
+
+#nav{float:right; /*给这个图层添加一个浮动，而且这个图层将浮在右边*/
+	position:relative;}
+
+.nb{margin-top:100px;
+	margin-right:20px;
+    margin-left:20px;
+    margin-bottom:20px;
+    box-shadow: 3px 3px 3px #888888;/*设置阴影大小及颜色*/
+	background-color:#fff;
+	padding-left:30px;
+    padding-bottom:30px;
+    padding-right:30px;
+    line-height:40px;}/*设置行间距*/
+
+.n1{padding-top:10px;}
+
+.nb .t1{font-size:14px;/*设置字体大小*/
+        color:#4F4F4F}
+
+.nb h4{color:#4F4F4F;}
+
+.nb .t2{text-indent:2em;}/*设置缩进*/
+
+.nc{background-color:#fff;
+	margin-top:20px;
+    margin-right:20px;
+    margin-left:20px;
+    margin-bottom:20px;
+    box-shadow: 3px 3px 3px #888888;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;
+    line-height:40px;}
+
+.nc ul{padding-left:20px;}    
+
+.n2{padding-top:10px;}
+
+.nc .t3{font-size:14px;
+        color:#4F4F4F}
+
+.nc .t4{text-indent:2em;}/*设置缩进*/
+
+.ba{color:#4F4F4F}
+
+.nd{background-color:#fff;
+    margin-top:20px;
+    margin-right:20px;
+    margin-left:20px;
+    margin-bottom:20px;
+    box-shadow: 3px 3px 3px #888888;
+    padding-top: 10px;
+    padding-right:30px;
+    padding-bottom:30px;
+    text-indent:2em;/*设置缩进*/
+    line-height:40px;}/*设置行间距*/
+         
+.ne{background-color:#fff;
+    box-shadow: 3px 3px 3px #888888;
+	margin-top:20px;
+	margin-right:20px;
+    margin-left:20px;
+    margin-bottom:20px;
+	padding-top:10px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;}
+
+.ne .t6{color:#4F4F4F;
+	    line-height:40px;}
+
+.ne .t7{font-size:14px;
+        color:#4F4F4F;
+        line-height:40px;}
+
+.ne .t8{padding-left:40px;} 
+
+.ne .t9 table{width:1200px;
+	          width:100%; 
+			  border-collapse:collapse;}/*如果可能，表格边框会合并为一个单一的边框。*/
+
+ .ne .t9 table td{border:1px solid #ccc;}/*solid表示边框是实线*/
+
+.ne .t9 table th{background-color:#1C1C1C;
+                 color:#fff;
+                 text-align:left;}/*设置“表头”两字的左对齐*/
+
+.total{background-color: #ccc;}/*设置总计的背景颜色*/
+
+.nf{background-color:#fff;
+    margin-top:20px;
+    margin-right:20px;
+    margin-left:20px;
+    margin-bottom:20px;
+    box-shadow: 3px 3px 3px #888888;  
+    padding-top:10px;
+    padding-right:30px;
+    padding-bottom:10px; 
+    line-height:40px;}
+
+.nf>h4{text-indent:2em;}/*设置一个子选择器，>作用于元素的第一代后代，空格作用于元素的所有后代。*/
+
+.nf1{padding-left:300px;}
+
+.nf2{padding-left:140px;
+     font-size:8px;
+     color:#4F4F4F;}
+
+.nf3{padding-left:332px;}
+
+.nf4{padding-left:300px;}
+
+.nf5{padding-left:440px;
+     font-size:8px;
+     color:#4F4F4F;}
+
+.nf6{padding-left:300px;}
+
+.nf7{padding-left:300px;
+}
+.nf7 span{float:left;
+	      margin-top:-10px;}
+
+.nf8{width:90%;
+     height:40px;
+     display:block;/*将元素显示为块级元素*/
+     margin:0px auto;/*外边距上下是0，左右是自动*/
+     margin-bottom:20px;
+     border-radius:10px;/*向div元素添加圆角边框*/
+     background:#128fdc;
+     color: white;
+     font-size: 20px;
+     border:none;/*没有边框*/
+     position: relative;}   
+
+.nf8:hover{background-color:#0000FF;} 
+
+.ng{width:100%;
+	height:70px;
+    background-color:#000000;
+    font-size:20px;color:#fff;
+    text-align:center;  /*中间对齐*/
+    line-height:70px; } /*和159行组合，是文字垂直居中*/
+           
+
+
